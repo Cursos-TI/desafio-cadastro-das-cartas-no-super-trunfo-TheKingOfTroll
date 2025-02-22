@@ -10,7 +10,10 @@
       float area1;
       float Pib1;
       int pontos_turisticos1;
-       
+    
+      
+//carta 1
+
 printf("informe o estado: \n");
 scanf ("%s", &estado1);
 
@@ -32,6 +35,7 @@ scanf("%f", &Pib1);
 printf("informe a quantidade de pontos turisticos: \n");
 scanf("%d", &pontos_turisticos1) ;
 
+
           printf("\n \n \n ");
 
           //exibição da carta 1
@@ -49,6 +53,5 @@ scanf("%d", &pontos_turisticos1) ;
        printf("o Pib é: %f bilhões de reais\n", Pib1);
 
        printf("numero de pontos turisticos: %d \n", pontos_turisticos1);
-      
-     
+
 }
