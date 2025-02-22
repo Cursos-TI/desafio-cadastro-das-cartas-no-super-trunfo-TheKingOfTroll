@@ -1,6 +1,8 @@
 #include <stdio.h>
-   
-    int main(){
+//desafio - Super trunfo   
+//cadastro das cartas super trunfo
+
+    int main() {
    
         //carta 1
       char estado1[20];
@@ -26,7 +28,7 @@ scanf("%s", &cidade1);
 printf("informe a população: \n");
 scanf("%d", &população1);
 
-printf("informe a area: \n");
+printf("informe a area(Km²): \n");
 scanf("%f", &area1); 
 
 printf("informe o pib: \n");
@@ -35,7 +37,7 @@ scanf("%f", &Pib1);
 printf("informe a quantidade de pontos turisticos: \n");
 scanf("%d", &pontos_turisticos1) ;
 
-          printf("\n \n \n ");
+          printf("\n \n");
 
           //exibição da carta 1
               printf ("carta 1\n");     
