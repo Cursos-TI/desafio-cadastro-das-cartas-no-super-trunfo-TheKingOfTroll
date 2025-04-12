@@ -23,7 +23,7 @@
         printf("** CADASTRO CARTA 1 **\n");
 
         //carta 1
-printf("informe o estado: \n");
+printf("informe a letra do estado: \n");
   scanf ("%s", &estado1);
 printf("informe o código da carta: \n");
   scanf ("%s", &codigo1);
@@ -47,7 +47,7 @@ printf("\n\n");//identação para melhor visualização
     printf("** CADASTRO CARTA 2 **\n");
 
         //carta 2
-printf("informe o estado: \n");
+printf("informe a letra do estado: \n");
   scanf ("%s", &estado2);
 printf("informe o código da carta: \n");
   scanf ("%s", &codigo2);
@@ -157,6 +157,7 @@ printf("--- Atributos Vencedores ---\n");
           else
             printf ("Super Poder: CARTA 2 VENCEU!!!\n");
           
+return 0;
 
 }
  
